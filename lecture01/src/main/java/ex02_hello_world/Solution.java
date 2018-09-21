@@ -14,5 +14,6 @@ public class Solution {
         System.out.println("Hello, World.");
 
         // TODO: Напишите здесь код, который выводит inputString на экран
+        System.out.print(inputString);
     }
 }

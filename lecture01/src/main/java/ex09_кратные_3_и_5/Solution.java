@@ -14,10 +14,17 @@ public class Solution {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int t = in.nextInt();
-        for(int a0 = 0; a0 < t; a0++){
+        for (int a0 = 0; a0 < t; a0++) {
             int n = in.nextInt();
+            int Sum = 0;
+            for (int i = 1; i < n; i++) {
+                if (Sum % 3 == 0 && Sum % 5 == 0) {
+                    Sum = Sum + i;
+                }
 
-
+            }
+            System.out.println(Sum);
         }
+        in.close();
     }
 }

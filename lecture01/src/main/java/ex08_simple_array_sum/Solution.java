@@ -34,6 +34,12 @@ public class Solution {
 
     //TODO: реализовать подсчет суммы
     private static int simpleArraySum(int[] ar) {
-        return 0;
+        int sum;
+        sum = 0;
+        for(int i : ar)
+        {
+            sum = sum + i;
+        }
+        return sum;
     }
 }
